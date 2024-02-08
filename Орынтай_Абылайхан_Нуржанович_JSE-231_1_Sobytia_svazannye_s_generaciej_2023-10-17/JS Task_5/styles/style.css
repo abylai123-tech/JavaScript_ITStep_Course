@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#country-input {
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  #suggestions {
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    display: none;
+  }
+
+  .suggestion {
+    padding: 5px;
+    cursor: pointer;
+  }

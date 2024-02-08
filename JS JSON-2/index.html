@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прямоугольник</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>Введите параметры прямоугольника:</h1>
+    <form id="rectangleForm">
+        <label for="startX">Координата X начала прямоугольника:</label>
+        <input type="number" id="startX" required><br>
+
+        <label for="startY">Координата Y начала прямоугольника:</label>
+        <input type="number" id="startY" required><br>
+
+        <label for="width">Ширина прямоугольника:</label>
+        <input type="number" id="width" required><br>
+
+        <label for="height">Высота прямоугольника:</label>
+        <input type="number" id="height" required><br>
+
+        <label for="fillColor">Цвет заливки:</label>
+        <input type="color" id="fillColor" value="#000000"><br>
+
+        <label for="borderColor">Цвет границы:</label>
+        <input type="color" id="borderColor" value="#000000"><br>
+
+        <label for="borderWidth">Толщина границы:</label>
+        <input type="number" id="borderWidth" required><br>
+
+        <button type="button" onclick="submitForm()">Передать</button>
+    </form>
+    <script src="js/script.js"></script>
+</body>
+</html>

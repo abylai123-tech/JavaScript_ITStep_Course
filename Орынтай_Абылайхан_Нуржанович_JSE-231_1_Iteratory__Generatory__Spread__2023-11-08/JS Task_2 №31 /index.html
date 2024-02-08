@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework  №31</title>
+  <script src="js/greetModule.js" defer></script>
+  <script type="module">
+    import greet from './module.js';
+
+    function callGreet() {
+      let name = prompt('Введите ваше имя:');
+      greet(name);
+    }
+  </script>
+</head>
+<body>
+  <button onclick="callGreet()">Поприветствовать</button>
+</body>
+</html>

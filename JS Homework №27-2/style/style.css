@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(33, 33, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20pt;
+}
+button{
+    font-size: 20pt;
+}
+#mainBlock{
+    width: 1000px;
+    min-height: 200px;
+    border: solid 1px white;
+    margin: 0 auto;
+}
+.imgBlock{
+    width: 700px;
+    height: 180px;
+    border: solid 1px white;
+    margin: 0 auto;
+}
+.textBlock{
+    width: 700px;
+    min-height: 180px;
+    border: solid 1px white;
+    margin: 0 auto; 
+    word-wrap: break-word;
+}
+h2, p{
+    margin: 10px;
+}

@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+  }
+
+  .profile-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-card {
+    display: none;
+    margin-top: 20px;
+  }
+
+  .profile-card div {
+    margin-bottom: 10px;
+  }

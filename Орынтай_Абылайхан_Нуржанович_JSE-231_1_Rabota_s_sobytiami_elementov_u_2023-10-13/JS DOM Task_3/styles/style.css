@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#likeButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0077FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#likeButton img {
+    width: 20px;
+    margin-right: 15px;
+}
+
+#word {
+    margin-right: 15px; 
+}
+
+
+#likeCount {
+    font-size: 24px;
+}

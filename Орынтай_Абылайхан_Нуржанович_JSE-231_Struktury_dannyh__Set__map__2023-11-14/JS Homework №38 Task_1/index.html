@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>JS HOMEWORK №38 Task_1</title>
+</head>
+<body>
+    <label for="text">Введите текст:</label><br>
+    <textarea id="text" rows="4" cols="50"></textarea><br>
+    <label for="shift">Введите сдвиг:</label><br>
+    <input type="number" id="shift"><br>
+    <label for="operation">Выбрать операцию:</label><br>
+    <select id="operation">
+        <option value="encrypt">Шифровать</option>
+        <option value="decrypt">Расшифровать</option>
+    </select><br><br>
+    <button onclick="applyCipher()">Сформировать</button><br><br>
+    <label for="result">Результат:</label><br>
+    <textarea id="result" rows="4" cols="50" readonly></textarea>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>

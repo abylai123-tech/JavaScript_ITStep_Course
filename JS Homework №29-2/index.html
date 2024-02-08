@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Геттеры и сеттеры</title>
+</head>
+<body>
+    <div id="form-container">
+      <label for="name">Имя:</label>
+      <input type="text" id="name">
+
+      <label for="age">Возраст:</label>
+      <input type="number" id="age">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email">
+
+      <label>Опции:</label>
+      <input type="radio" name="options" value="default" checked> По умолчанию
+      <input type="radio" name="options" value="custom"> С корректировкой
+
+      <button onclick="generateObject()">Сформировать</button>
+  </div>
+
+  <div id="result-container">
+      <h2>Результат:</h2>
+      <p id="result"></p>
+  </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

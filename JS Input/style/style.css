@@ -1,0 +1,75 @@
+body {
+  background-image: url(../img/form\ consulting.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  height: 300px;
+  margin: 0 auto; 
+  margin-top: 200px;
+  padding: 20px;
+  background-color: #e0f7fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #009688;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+label, input[type="text"] {
+  display: block;
+  margin: 10px 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+label[for="question"] {
+  color: #009688;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input[type="button"] {
+  padding: 10px 20px;
+  background-color: #009688;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition:  0.3s ease;
+}
+
+#answer {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="text"]::placeholder {
+  color: #ddd;
+}
+
+
+input[type="button"]:hover {
+  background-color: #00796b;
+}
